@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block mainBody %}
+{#    <div class="blockquote text-center">#}
+{#        <h2>{{ article_title }}</h2>#}
+{#    </div>#}
+{#    <blockquote class="text-center">#}
+{#    <div class="mb-0">#}
+{#        <p class="text-primary">{{ article_content }}</p>#}
+{#    </div>#}
+{#    <footer class="blockquote-footer">created by <cite title="Source Title">chen</cite></footer>#}
+{#    <br>#}
+{#    <a class="nav-link" href="">编辑</a>#}
+{#    </blockquote>#}
+
+
+
+    <div class="jumbotron">
+  <h3 class="display-3">{{ article_title }}</h3>
+  <p class="lead">{{ article_content }}</p>
+  <hr class="my-4">
+  <footer class="blockquote-footer">created by <cite title="Source Title">chen</cite></footer>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">编辑</a>
+  </p>
+</div>
+
+{% endblock %}
